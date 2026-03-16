@@ -99,7 +99,7 @@ http://localhost:8501
 
 ### 7. Technologies Used
 Technology	Purpose
-Python	    |Core programming language
-Streamlit	|Web interface
-CSV Files	|Data storage
-OS Module	|File and directory handling
+1. Python -> Core programming language
+2. Streamlit -> Web interface
+3. CSV Files  -> Data storage
+4. OS Module  ->  File and directory handling
