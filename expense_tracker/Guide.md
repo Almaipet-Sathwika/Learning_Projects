@@ -1,0 +1,105 @@
+# Expense Tracker
+
+# How to Run the Expense Tracker Project
+
+## 1️⃣ Install Python
+
+Make sure Python is installed.
+
+Check using:
+
+```
+python--version
+```
+
+If not installed, download from:
+
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+---
+
+## 2️⃣ Download the Project
+
+Either clone from GitHub:
+
+```
+git clone <your-repository-link>
+```
+
+or download the ZIP and extract it.
+
+---
+
+## 3️⃣ Navigate to Project Folder
+
+Open terminal and go to the project directory.
+
+Example:
+
+```
+cd expense_tracker
+```
+
+The folder structure should look like:
+
+```
+expense_tracker
+│
+├── app.py
+├── services
+│   ├── auth_service.py
+│   └── expense_service.py
+│
+└── data
+    └── users.csv
+```
+
+If `data` folder does not exist, create it.
+
+---
+
+## 4️⃣ Install Required Library
+
+Your project uses **Streamlit**.
+
+Install it:
+
+```
+pip install streamlit
+```
+
+---
+
+## 5️⃣ Run the Application
+
+Run this command:
+
+```
+streamlit run app.py
+```
+
+Your browser will open automatically.
+
+If not, open the link shown in the terminal:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 6️⃣ Use the Application
+
+1. Create an account
+2. Login
+3. Add expenses
+4. View expenses
+5. Check totals
+
+
+### 7. Technologies Used
+Technology	Purpose
+Python	    |Core programming language
+Streamlit	|Web interface
+CSV Files	|Data storage
+OS Module	|File and directory handling
